@@ -1,0 +1,86 @@
+
+body {
+  font-family: "Raleway", "Comfortaa", sans-serif;
+  font-size: 1.2em;
+  color: #484848;
+}
+
+em {
+    font-style: normal;
+    color: black;
+    font-weight: 500;
+}
+
+.ui.stripe {
+    padding: 100px 0px;
+}
+
+.ui.stripe h1 {
+  font-size: 3rem;
+  font-weight:  normal;
+}
+
+.ui.stripe h2 {
+  font-size: 2.3rem;
+  font-weight:  normal;
+}
+
+h3.ui.icon.header {
+  font-size: 2.2rem; 
+  padding-bottom: 20px;
+}
+
+h3.ui.icon.header img.ui.icon {
+  max-height: 150px;
+  padding-bottom: 2px;
+}
+
+.menu.hidden {
+  display: none;
+}
+
+#hero {
+    height: 100vh;
+    // background-image: url('../img/background/coral-low.jpeg');
+    background-image: url('../img/background/balance-low.jpeg');
+    background-size: cover;
+}
+
+#motto{
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+#logo{
+  padding-top: 150px;  
+}
+
+#about-us{
+  background-color: #A9CF54;
+  min-height: 100vh;
+}
+
+
+#fix-nav{
+  background-color: rgba(248, 248, 248, 0.98)
+}
+
+#contact {
+  background-color: #995df9; 
+  color: black;
+  min-height: 100vh;
+
+}
+
+#about-us h1, #contact h1{
+  color: white;
+  font-size: 2rem;
+
+}
+
+@media screen and (max-width: 690px) {
+  
+   img.ui.fluid.image{
+      max-width: 300px;
+   }
+}
