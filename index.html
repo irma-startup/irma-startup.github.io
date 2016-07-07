@@ -6,345 +6,281 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <title>irma* startup</title>
+    <title>Irma* Startup</title>
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <!-- <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="assets/css/semantic.min.css">
-    <style type="text/css">
-      body {
-          font-family: "Raleway", "Comfortaa", sans-serif
-      }
+    <link rel="stylesheet" href="assets/css/main.css">
 
-      .spacer{
-        margin-top: 7%;
-      }
-    
-      #motto{
-          font-weight: lighter;
-          font-size: 2.2rem;
-      }
-
-
-      #hero {
-          height: 98%;
-          background-image: url('assets/img/background/coral-low.jpeg');
-          /*background-image: url('assets/img/background/balance-low.jpeg');*/
-          background-size: cover;
-          color: #fff;
-
-      }
-
-      @media screen and (min-width: 700px) {
-          #logo{
-              /*max-height: 500px;*/
-              margin-top: 40%;
-          }
-      }
-          #logo-text{
-              margin-top: 30%;
-              max-height: 120px;
-              padding-bottom: 30px;
-          }
-      }
-
-
-
-    </style>     
 </head>
 
-<!-- SUPER HERO -->
 <body>
 
-<div class="ui vertical stripe segment" id="hero" >
-    <div class="ui middle aligned grid container">
-      <div class="row">
-        <div class="ten wide column">
-          <img src="assets/img/logo/irma-text-white.png" alt="irma logo text" id="logo-text">
-          <p id="motto"> The digital era <br/> of electrical networks </p>
-        </div>
-        <div class="six wide right column">
-            <img src="assets/img/logo/logo-white-90.png" alt="irma logo" id="logo">
+<!-- Following Menu -->
+<div id='fix-nav' class="ui top fixed menu hidden">
+  <div class="ui container">
+
+    <a class="item" href="#hero">
+      <img type="image/svg+xml" src="assets/img/svg/irma-logo-b.svg">
+    </a>
+    <a class="item" href="#what-we-do">What we do</a>
+    <a class="item" href="#about-us">Team</a>
+    <a class="item" href="#contact">Contact</a>
+
+    <div href="#" class="ui language floating right dropdown link item" tabindex="0">
+      <i class="world icon"></i> 
+      <div class="text">en</div>
+      <div class="menu">
+        <a class="item" data-value="fr" data-text="fr">
+          Français
+        </a>
+         <a class="item" data-value="en" data-text="en">
+          English
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div id="hero" class="ui inverted vertical masthead center aligned segment">
+  <div id='top-nav' class="ui container ">
+    <div class="ui large secondary inverted menu">
+      <a class="item" href="#hero">
+          <img  style="height:1em; width:2em;" type="image/svg+xml" src="assets/img/svg/irma-logo-w.svg">
+      </a>
+      <a class="item" href="#what-we-do">What we do</a>
+      <a class="item" href="#about-us">Team</a>
+      <a class="item" href="#contact">Contact</a>
+
+      <div href="#" class="ui language floating right dropdown link item" tabindex="0">
+        <i class="world icon"></i> 
+        <div class="text">en</div>
+        <div class="menu">
+          <a class="item" data-value="fr" data-text="fr">
+            Français
+          </a>
+           <a class="item" data-value="en" data-text="en">
+            English
+          </a>
         </div>
       </div>
     </div>
-</div>
+  </div>
 
-<!-- PINK STICKY BANDEAU -->
-<div class="ui fixed borderless pink two item inverted menu">
-  <div class="ui middle aligned container">
-      <div class="header item">
-        <h3 class="ui inverted header">
-          <span class="content">
-            We're looking for pilot projects.
-          </span>
-          <span class="inverted sub header">
-            Want to work with us ? Have any question ? Contact us !
-          </span>
-        </h3> 
-      </div>
-      <div class="right item">
-        <h3> 
-          <i class="mail icon"></i> irma.startup@gmail.com </h3>
-      </div>
+  <div class="ui stripe container grid stackable centered">
+    <div class="ten wide column">
+      <img id="logo" class="ui fluid image " type="image/svg+xml" src="assets/img/svg/irma-words-w.svg">
+      <p id="motto">The digital era  of electrical networks </p>
+    </div>
+    <div class="six wide right column computer only">
+      <img class="ui fluid image" type="image/svg+xml" src="assets/img/svg/irma-logo-w.svg">
+    </div>
   </div>
 </div>
 
 <!-- WHAT WE DO -->
-<div class="ui middle aligned grid container" >
-  <div class="row">
-    <h1 class="ui center aligned icon header"> 
-      <img src="assets/img/logo/logo.png" alt="Irma Logo"> <br/>
-      What we do at irma*
-    </h1>        
+<div id="what-we-do" class="ui stripe  container" >
+  <div class="ui vertical segment">
+    <h1 class="ui header ">
+      Automated digitalization of distribution networks
+      <div class="sub header" style="font-size:2.2rem;">
+        Using only smart meters data. No additional sensor. No paper archives.
+      </div>
+    </h1>
   </div>
-
-  <div class="row">
-    <h2 class="ui blue header">
-      <div class="content">
-        Automated digitalization of distribution networks using smart meters.
-      </div>
-      <div class="sub header">
-        Only smart meters data. No additional sensor. No paper archives.
-      </div>
-    </h2>  
-    <p>
-      Smart meters data are collected and analyzed to estimate the network physical characteristics and topology.
-      The network is discovered and digitalized, without additional sensors or information being required. Digitalization allows advanced electrical studies to be performed very easily.
-    </p>
-  </div> 
-  <img class="ui huge centered image" style="max-height:400px" alt=" What we do" src="assets/img/img_website/what_we_do.png">  
 </div> 
 
-<!-- WHY LV NETWORKS -->
-<div class="spacer"></div>
-<div class="ui middle aligned grid container" >
-  <div class="row">
-    <h1 class="ui center aligned icon header">
-      <i class="help icon"></i>
-      Why distribution networks ?
-    </h1>        
-  </div>
-
-  <div class="height wide column">
-    <h2 class="ui blue header"> Distribution networks are much trickier.</h2>
-    <div class="ui list">
-      <div class="item">
-        <i class="large smile middle aligned icon"></i>
-        <div class="content">
-          <h3 class="ui header"> The transmission system is well known. </h3>
-          <div class="description"> It is extremely reliable and efficient. </div>
-        </div>
-      </div>
-      <div class="item">
-        <i class="large ban middle aligned icon"></i>
-        <div class="content">
-          <h3 class="ui header"> But distribution networks are not. </h3>
-          <div class="description"> Their operation and planning are therefore difficult to optimize. </br> 
-          This is even truer for Low Voltage networks, which are largely unkown. </div>
-        </div>
-      </div>
-      <div class="item">
-        <i class="large database middle aligned icon"></i>
-        <div class="content">
-          <h3 class="ui header"> 200 millions smart meters will be deployed in Europe by 2020.</h3>
-          <div class="description"> This opens the first opportunity to enlighten Low Voltage networks.</div>
-        </div>
-      </div>    
+<!-- The Pitch -->
+<div class="ui stripe container grid middle aligned stackable centered ">
+    <div class="six wide column computer tablet only">
+      <img class="ui fluid image" type="image/svg+xml" src="assets/img/svg/network-overview.svg">
     </div>
-  </div> 
-  <div class="height wide right floated column">
-    <img class="ui huge centered image" alt="Presentation" src="assets/img/img_website/network_presentation.png">
-  </div>
-</div>
-
-<!-- NEW SERVICES -->
-<div class="spacer"></div>
-<div class="ui middle aligned grid container" >
-  <div class="row">
-    <h1 class="ui center aligned icon header"> 
-      <i class="unlock icon"> </i>
-      New services
-    </h1>        
-  </div>
-
-  <div class="five wide column">
-    <img class="ui left big image" src="assets/img/img_website/digitalized_network.png">
-  </div>
-
-  <div class="eleven wide column">
+    <div class="ten wide column">
+      <h2 class="ui header content"> 
+        Low Voltage Networks
+        <div class="sub header"> At the core of energy transition &amp; smart grids</div> 
+      </h2>
+      <p>So far, efforts focused on the transmission networks, which infrastructures are most critical. <em>Low Voltage networks remain poorly known</em> , and  their study is challenging: their millions of kilometers of lines have never been instrumented ; and the available information is limited and often outdated.      
+      </p>
+      <p>Today, <em>this lack of knowledge negatively affects the deployment of smart grids</em>. As an example, it is difficult to predict the impact of a new photovoltaic system or electric vehicle.</p>
+    </div>
     
-    <h2 class="ui blue header"> Digitalization opens the door to simulations </h2>
-
-    <div class="ui two column grid">
-
-      <div class="height wide column">
-        <div class="ui list">
-          <div class="item">
-            <i class="large unlock middle aligned icon"></i>
-            <div class="content">
-              <h3 class="ui header"> Network diagnostic ... </h3>
-              <div class="description"> Which transformer/cable is at risk ? </br>
-              Impact of a new PV at a specific location ?</div>
-            </div>
-          </div>
-          <div class="item">
-            <i class="large unlock middle aligned icon"></i>
-            <div class="content">
-              <h3 class="ui header"> ... And network optimization </h3>
-              <div class="description"> Possible solutions to relieve the network ? </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="height wide middle aligned column">
-        <div class="ui list">
-          <div class="item">
-            <i class="huge blue long right arrow middle aligned icon"></i>
-            <div class="content">
-              <h3 class="ui header"> For data driven decision making </h3>
-              <div class="description"> For public and private distribution networks </div>
-            </div>
-          </div>  
-        </div>     
-      </div> 
-
+    <div class="row computer only">
+      <div class="eleven wide column  ">
+        <img class="ui fluid image" type="image/svg+xml" src="assets/img/svg/connect-left-right.svg">
+      </div>     
     </div>
-  </div>
-</div>
+ 
+    <div class="ten wide column ">
+      <h2 class="ui header content"> 
+        Our Innovation
+        <div class="sub header">Take advantage of smart meters data to shed light on the low voltage network</div>
+      </h2>
+      <p> <em>We pair smart grids studies with sophisticated big data analytics</em> to build maps with physical meaning.</p>
 
-<!-- OUR INNOVATION -->
-<div class="spacer"></div>
-<div class="ui middle aligned grid container">
-  <div class="row">
-    <h1 class="ui center aligned icon header">
-      <i class="idea icon"></i>
-      Our innovation
-    </h1>        
-  </div>
+      <p>These maps are of <em>great value for the operation and maintenance of the electrical distribution network</em>. They can greatly simplify the network operation procedure by allowing advanced electrical simulations to be performed.</p>
+    </div>
 
-  <div class="row">
-    <h2 class="ui blue header"> We introduce advanced data analytics and signal processing techniques within electrical engineering. 
-    </h2>
-  </div> 
+    <div class="six wide column computer tablet only">
+      <img class="ui fluid image " type="image/svg+xml" src="assets/img/svg/irma-logo-c.svg">
+    </div>
 
-  <div class="six wide column">    
-    <h3 class="ui center aligned blue icon header">
-      <i class="black cubes icon"></i>
-      irma innovation
-    </h3>
-  </div>
+    <div class="row computer only">
+      <div class="eleven wide column  ">
+        <img class="ui fluid image" type="image/svg+xml" src="assets/img/svg/connect-right-left.svg">
+      </div>     
+    </div>
 
-  <div class="ten wide column">
-    <div class="ui list">
-      <div class="item">
-        <i class="large cube middle aligned icon"></i>
-        <div class="content">
-          <h3 class="ui header"> Electrical engineering </h3>
-          <div class="description"> Understanding electrical networks to find which knowledge is needed</div>
+    <div class="six wide column computer tablet only">
+      <img class="ui fluid image" type="image/svg+xml" src="assets/img/svg/digital-network.svg">
+    </div>
+    <div class="ten wide column">
+      <h2 class="ui header content"> 
+        Customer Value
+        <div class="sub header">A set of services simplyfing network operation.</div> 
+      </h2>
+      <p>We assist our client with their collection of smart-meters data in order to build a digital map of their network.</p>
+      <p>These services are designed to make the best of the existing equipments : reduction of the need for reinforcements, relief of the constraints, and help to respect the electricity quality norms.</p>
+    </div>
+
+    <div class="row computer only">
+      <div class="eleven wide column  ">
+        <img class="ui fluid image" type="image/svg+xml" src="assets/img/svg/connect-up-down.svg">
+      </div>     
+    </div>
+
+    <div class="row segment">
+      <div class="left floated column container six wide center aligned">
+        <h2 class="ui header content">In a nutshell ...</h2>
+      </div>  
+    </div>
+
+
+  <div class="ui vertical segment">
+    <div class="ui three column center aligned divided relaxed stackable grid container very relaxed">
+      <div class="row">
+        <div class="column">
+          <h3 class="ui icon header">
+            <img class="ui icon image" type="image/svg+xml" src="assets/img/svg/stop-papers.svg">
+            No more papers!
+          </h3>
+          <p>Archives information is <em>limited and often outdated</em>. Our data driven approach reflects real network behaviour.</p>
         </div>
-      </div>
-      <div class="item">
-        <i class="large cube middle aligned icon"></i>
-        <div class="content">
-          <h3 class="ui header"> Signal processing </h3>
-          <div class="description"> Extracting meaningful information from raw data</div>
+        <div class="column">
+          <h3 class="ui icon header">
+            <img class="ui icon image" type="image/svg+xml" src="assets/img/svg/smart-meters-maps.svg">
+            We build maps
+          </h3>
+          <p>We take advantage of the smart meter deployment to build digital maps of the low voltage networks.</p>
         </div>
-      </div>
-      <div class="item">
-        <i class="large cube middle aligned icon"></i>
-        <div class="content">
-          <h3 class="ui header"> Data analytics </h3>
-          <div class="description"> Extracting the needed knowledge from meaningful information</div>
+        <div class="column">
+          <h3 class="ui icon header">
+            <img class="ui icon image" type="image/svg+xml" src="assets/img/svg/digital-value.svg">
+            Easy processes
+          </h3>
+          <p>
+            Thanks to our technology we leverage the maintenance and planification, <em> heavily reducing operation costs.</em> 
+          </p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- <img class="ui big centered image" style="max-height:200px" src="assets/img/img_website/innovation.png"> -->
-</div>
+</div> 
 
-<!-- THE TEAM -->
-<div class="spacer"></div>
-<div class="ui vertical stripe segment" >
-  <div class="ui middle aligned grid container">
-    <div class="row">
-      <h1 class="ui center aligned icon header">
-        <i class=" coffee icon"></i>
-        The Team
-      </h1>        
+<!-- The Team -->
+<div  id="about-us" class="ui stripe" >
+  <div class="ui grid container middle aligned stackable">
+    <div class="right aligned sixteen wide column">      
+      <h1 class="header">The Team</h1>
     </div>
 
-    <div class="two wide column">
-         <img class="ui small circular image"  src="assets/img/avatar/clementine.jpg" >
+    <!-- Clementine Citronée -->
+     <div class="three wide column">
+      <img class="ui centered small circular image "  src="assets/img/avatar/clementine_bw.jpg" >
+    </div>
+    <div class="thirteen wide column">
+      <h3 class="ui header">
+        <div class="content">Clémentine Benoit<div class="sub header">CEO, Cofounder</div></div>
+      </h3>
 
+      <p>Clémentine holds a MSc in Power Systems and Associated Markets from Grenoble Institute of Technology, and defended a PhD from the University of Grenoble-Alpes at <a href="http://www.g2elab.grenoble-inp.fr/">G2Elab</a>, on which she focused on Low Voltage Smart Grids. During her PhD she engaged in the <a href="http://www.kic-innoenergy.com/education/phd-school/">KIC InnoEnergy</a> PhD school program, where she received trainings in innovation and entrepreneurship. She continued her research as a postdoctoral fellow at <a href="http://www.schneider-electric.com/">Schneider Electric</a>. </p>
+      <p> She specialized in distribution networks identification, optimization, state estimation and load forecasting, and therefore she has a global understanding of the electrical system. She worked closely with three distribution network operators (ERDF and GEG in France, TECTEO in Belgium), which has helped her to understand the complexity of this sector.</p>
     </div>
 
-     <div class="fourteen wide column">
-        <h3 class="ui header">
-          <div class="content">
-            Clémentine Benoit
-            <div class="sub header">CEO, Cofounder</div>
-          </div>
-        </h3>
-
-        <p>Clémentine holds a MSc in Power Systems and Associated Markets from Grenoble Institute of Technology, and defended a PhD from the University of Grenoble-Alpes at <a href="http://www.g2elab.grenoble-inp.fr/">G2Elab</a>, on which she focused on Low Voltage Smart Grids. During her PhD she engaged in the <a href="http://www.kic-innoenergy.com/education/phd-school/">KIC InnoEnergy</a> PhD school program, where she received trainings in innovation and entrepreneurship. She continued her research as a postdoctoral fellow at <a href="http://www.schneider-electric.com/">Schneider Electric</a>. </p>
-        <p> She specialized in distribution networks identification, optimization, state estimation and load forecasting, and therefore she has a global understanding of the electrical system. She worked closely with three distribution network operators (ERDF and GEG in France, TECTEO in Belgium), which has helped her to understand the complexity of this sector.</p>
+      
+   
+    <!-- Florian Morilles -->
+    <div class="three wide column">
+        <img class="ui centered small circular image"  src="assets/img/avatar/florian_bw.jpg" >
+    </div>
+    <div class="thirteen wide column">
+      <h3 class="ui header">
+        <div class="content">Florian Dadouchi<div class="sub header">CTO, Cofounder</div></div>
+      </h3>
+      <p> Florian holds a PhD in signal and image processing from the University of Grenoble-Alpes at <a href="http://www.gipsa-lab.grenoble-inp.fr/">Gipsa-lab</a>. His dissertation focused on the development of advanced signal processing theory for bioacoustics, and in particular the study of sounds produced by marine mammals. He held a teaching assistant position at the MSc level between 2011 and 2012, and mentored two interns at Gipsa-lab</p>
+      <p> During his PhD he developed strong oral and written communication skills. He is a French, English and Portuguese speaker. He is a strong advocate of the transfer of knowledge, popular science and critical thinking.</p>
     </div>
 
-    <div class="two wide column">
-        <img class="ui small circular image"  src="assets/img/avatar/florian.jpg" >
+    <!-- Arturo Jedi-->
+    <div class="three wide column">
+        <img class="ui centered small circular image"  src="assets/img/avatar/arturo_bw.jpeg" >
     </div>
-    <div class="fourteen wide column">
-        <h3 class="ui header">
-          <div class="content">
-            Florian Dadouchi
-            <div class="sub header">CTO, Cofounder</div>
-          </div>
-        </h3>
-        <p>Florian holds a PhD in signal and image processing from the University of Grenoble-Alpes at <a href="http://www.gipsa-lab.grenoble-inp.fr/">Gipsa-lab</a>. His dissertation focused on the development of advanced signal processing theory for bioacoustics, and in particular the study of sounds produced by marine mammals. He held a teaching assistant position at the MSc level between 2011 and 2012, and mentored two interns at Gipsa-lab</p>
-        <p>   
-        During his PhD he developed strong oral and written communication skills. He is a French, English and Portuguese speaker. He is a strong advocate of the transfer of knowledge, popular science and critical thinking. </p>
-    </div>
-
-    <div class="two wide column">
-        <img class="ui small circular image"  src="assets/img/avatar/arturo.jpeg" >
-    </div>
-    <div class="fourteen wide column">
-        <h3 class="ui header">
-          <div class="content">
-            Arturo Mondragón
-            <div class="sub header">CFO, Cofounder</div>
-          </div>
-        </h3>
+    <div class="thirteen wide column">
+      <h3 class="ui header">
+        <div class="content">Arturo Mondragón <div class="sub header">CFO, Cofounder</div></div>
+      </h3>
         <p>Arturo holds a BSc in Computer Science, interested in Artificial Intelligence he holds an MSc in data mining, both from <a href="http://www.insa-rouen.fr/">INSA de Rouen</a>. During his MSc, he worked for his school as a full stack web developer, where he learned advanced programming and project management. After schools he mastered:  Data modeling, software architectures, software development methodologies and project quality management.</p>
-
         <p>His work at <a href="http://www.xrce.xerox.com/">XRCE</a> is filling the gap between research and product development, main skills: project management, business intelligence, big data, data visualization and mining, distributed computing and software engineering as whole. Arturo's native language is spanish. He learnt French while studying in France. He is a fluent english speaker, and learns Portuguese for fun.</p>
     </div>
   </div>
 </div>
- 
-<!-- SUPER FOOTER NOIR -->  
-<div class="ui black inverted footer vertical segment">
-    <div class="ui black inverted segment">
+
+
+<div  id="contact" class="ui stripe" >
+  <div class="ui grid container middle aligned stackable">
+    <div class="right aligned sixteen wide column" style="padding-bottom:12%">      
+      <h1 class="header">Contact</h1>
     </div>
-    <div class="ui black inverted segment">
-      <div class="ui active text loader"> 
-        <h4 class="ui inverted teal header"> Startup loading </h4>
+  </div>
+
+  <div class="ui two column center aligned  relaxed stackable grid container very relaxed">
+    <div class="row">
+      <div class="column segment">
+        <img class="ui centered tiny image" type="image/svg+xml" src="assets/img/svg/flask.svg">
+        <h3 class="ui  header">
+          Pilot Project &amp; Partnerships
+        </h3>
+        <p>Let's build together the future of electrical networks. If you're interested in our technology, we are <em>ready to set up pilot projects and partnerships</em> . 
+        </p>
+      <!-- <img class="ui centered small image" type="image/svg+xml" src="assets/img/svg/microscope.svg"> -->
+      </div>
+      <div class="column">
+         <img class="ui centered tiny image" type="image/svg+xml" src="assets/img/svg/paper-plane.svg">
+         <h3 class="ui  header">
+          Let's keep in touch
+        </h3>
+        <p>Wanna work with us? Do you have any questions? Do not hesitate to 
+        <a href="mailto:irma.startup@gmail.com" style="color: white;">send a message</a>.</p>
       </div>
     </div>
-    <div class="ui black inverted segment"></div>
+  </div>
 </div>
 
 </body>
 
+<!-- Le Jabba the script -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="assets/js/semantic.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript">
-
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-64543687-2', 'auto');
     ga('send', 'pageview');
 </script>
