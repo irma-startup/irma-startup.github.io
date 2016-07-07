@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="4.5155549mm"
+   height="4.5360956mm"
+   viewBox="0 0 15.999998 16.07278"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="irma-logo-b.svg"
+   inkscape:export-filename="/Users/moca/Desktop/irma-logo-black-32.png"
+   inkscape:export-xdpi="4.488965"
+   inkscape:export-ydpi="4.488965">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="40.378827"
+     inkscape:cx="7.9999988"
+     inkscape:cy="8.0363899"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     inkscape:window-x="15"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-82.479396,-628.91561)">
+    <g
+       id="g4137"
+       transform="matrix(0.03183329,0,0,0.03183329,79.990462,624.31901)">
+      <path
+         id="path4368"
+         d="m 171.03278,212.17745 a 88.248787,88.248787 0 0 0 -88.248431,88.24843 88.248787,88.248787 0 0 0 87.904021,88.2319 135.8264,135.8264 0 0 1 -3.7915,-31.17279 135.8264,135.8264 0 0 1 68.24714,-117.62548 88.248787,88.248787 0 0 0 -64.11123,-27.68206 z"
+         style="fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.60990673;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4365"
+         d="m 223.31679,467.52445 a 106.32821,106.32822 0 0 0 -27.46098,71.13627 106.32821,106.32822 0 0 0 106.32765,106.32766 106.32821,106.32822 0 0 0 106.32916,-106.32766 106.32821,106.32822 0 0 0 -27.07597,-70.68959 135.8264,135.8264 0 0 1 -78.71326,25.34039 135.8264,135.8264 0 0 1 -79.4066,-25.78707 z"
+         style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.86237133;stroke-opacity:0.5"
+         inkscape:connector-curvature="0" />
+      <path
+         id="circle4370"
+         d="m 427.29119,148.70841 a 149.2204,149.2204 0 0 0 -128.1307,73.07639 135.8264,135.8264 0 0 1 3.5629,-0.12634 135.8264,135.8264 0 0 1 135.82652,135.82653 135.8264,135.8264 0 0 1 -32.38498,87.97773 149.2204,149.2204 0 0 0 21.12626,1.68595 A 149.2204,149.2204 0 0 0 576.51207,297.92929 149.2204,149.2204 0 0 0 427.29119,148.70841 Z"
+         style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.33928716;stroke-opacity:0.5"
+         inkscape:connector-curvature="0" />
+      <circle
+         r="82.649376"
+         cy="357.23816"
+         cx="303.13629"
+         id="circle4376"
+         style="fill:#333333;fill-opacity:1;stroke:#333333;stroke-width:0.57120782;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
