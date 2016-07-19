@@ -22,13 +22,13 @@ $(document)
       })
     ;
 
-
-    // // lazy load images
-    // $('.image').visibility({
-    //   type: 'image',
-    //   transition: 'vertical flip in',
-    //   duration: 500
-    // });
+    $('.image')
+      .visibility({
+        type       : 'image',
+        transition : 'fade in',
+        duration   : 1500
+      })
+    ;
 
     // show dropdown on hover
     $('.ui.dropdown').dropdown({

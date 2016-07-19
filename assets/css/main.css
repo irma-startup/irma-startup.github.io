@@ -56,7 +56,7 @@ h3.ui.icon.header img.ui.icon {
 }
 
 #about-us{
-  background-color: #A9CF54;
+  background-color: #b0da54; // #A9CF54;
   min-height: 100vh;
 }
 
@@ -66,7 +66,7 @@ h3.ui.icon.header img.ui.icon {
 }
 
 #contact {
-  background-color: #995df9; 
+  background-color: #9a65f1; #995df9; 
   color: black;
   min-height: 100vh;
 
