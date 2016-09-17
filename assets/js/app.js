@@ -14,11 +14,17 @@ $(document)
     $('#top-nav').visibility({
         once: false,
         onBottomPassed: function() {
-          $('#fix-nav').transition('fade in');
+          var minVp = Math.min(window.innerWidth(), window.innerHeight());
+          if (minVp > 500) {
+            $('#fix-nav').transition('fade in');
+          }
         },
 
         onBottomPassedReverse: function() {
-          $('#fix-nav').transition('fade out');
+          var minVp = Math.min(window.innerWidth(), window.innerHeight());
+          if (minVp > 500) {
+            $('#fix-nav').transition('fade out');
+          }
         }
       })
     ;
