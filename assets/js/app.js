@@ -1,4 +1,5 @@
-
+// This is probably the most sh*tty js I have ever done.
+// KISS
 
 $(document)
   .ready(function() {
@@ -26,7 +27,7 @@ $(document)
       .visibility({
         type       : 'image',
         transition : 'fade in',
-        duration   : 1500
+        duration   : 200
       })
     ;
 

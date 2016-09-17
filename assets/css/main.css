@@ -6,27 +6,34 @@ body {
 }
 
 em {
-    font-style: normal;
-    color: black;
-    font-weight: 500;
+  font-style: normal;
+  color: black;
+  font-weight: 500;
 }
 
 .ui.stripe {
-    padding: 100px 0px;
+  padding: 15vh 0;
+  align-items: center;
+  min-height: 90vh;
+
 }
 
-.ui.stripe h1 {
+h1.ui.header {
   font-size: 3rem;
-  font-weight:  normal;
+  font-weight: normal;
 }
 
-.ui.stripe h2 {
+h1.ui.header .sub.header {
+  font-size: 2.2rem;
+}
+
+h2.ui.header {
   font-size: 2.3rem;
   font-weight:  normal;
 }
 
 h3.ui.icon.header {
-  font-size: 2.2rem; 
+  font-size: 2.2rem;
   padding-bottom: 20px;
 }
 
@@ -41,7 +48,6 @@ h3.ui.icon.header img.ui.icon {
 
 #hero {
     height: 100vh;
-    // background-image: url('../img/background/coral-low.jpeg');
     background-image: url('../img/background/balance-low.jpeg');
     background-size: cover;
 }
@@ -52,7 +58,7 @@ h3.ui.icon.header img.ui.icon {
 }
 
 #logo{
-  padding-top: 150px;  
+  width:80vmin;
 }
 
 #about-us{
@@ -66,21 +72,44 @@ h3.ui.icon.header img.ui.icon {
 }
 
 #contact {
-  background-color: #9a65f1; #995df9; 
+  background-color: #9a65f1; #995df9;
   color: black;
-  min-height: 100vh;
+  min-height: auto;
 
 }
 
-#about-us h1, #contact h1{
-  color: white;
-  font-size: 2rem;
+
+@media screen and (max-width: 500px) {
+  body{
+    font-size: 13px;
+  }
+
+  h1.ui.header {
+    font-size: 2.4rem;
+  }
+
+  h2.ui.header {
+    font-size: 2.0rem;
+  }
+
+  h1.ui.header .sub.header {
+    font-size: 1.5rem;
+  }
+
+  #fix-nav {
+    font-size: x-small;
+  }
+
+  #top-nav  .menu{
+    font-size: x-small;
+  }
+
 
 }
 
-@media screen and (max-width: 690px) {
-  
-   img.ui.fluid.image{
-      max-width: 300px;
-   }
-}
+
+// @media screen and (max-width: 690px) {
+//    img.ui.fluid.image{
+//       max-width: 300px;
+//    }
+// }
