@@ -24,7 +24,7 @@ h1.ui.header {
 }
 
 h1.ui.header .sub.header {
-  font-size: 2.2rem;
+  font-size: 2.0rem;
 }
 
 h2.ui.header {
@@ -50,6 +50,10 @@ h3.ui.icon.header img.ui.icon {
     height: 100vh;
     background-image: url('../img/background/balance-low.jpeg');
     background-size: cover;
+}
+
+#what-we-do {
+    padding-bottom: 0;
 }
 
 #motto{
@@ -96,6 +100,10 @@ h3.ui.icon.header img.ui.icon {
     font-size: 1.5rem;
   }
 
+  #logo{
+    width: 100vmin;
+  }
+
   #fix-nav {
     font-size: x-small;
   }
@@ -103,13 +111,4 @@ h3.ui.icon.header img.ui.icon {
   #top-nav  .menu{
     font-size: x-small;
   }
-
-
 }
-
-
-// @media screen and (max-width: 690px) {
-//    img.ui.fluid.image{
-//       max-width: 300px;
-//    }
-// }
