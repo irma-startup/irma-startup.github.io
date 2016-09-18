@@ -70,18 +70,16 @@ h3.ui.icon.header img.ui.icon {
   min-height: 100vh;
 }
 
-
 #fix-nav{
   background-color: rgba(248, 248, 248, 0.98)
 }
 
 #contact {
-  background-color: #9a65f1; #995df9;
+  // background-color: #9a65f1; #995df9;
   color: black;
   min-height: auto;
 
 }
-
 
 @media screen and (max-width: 500px) {
   body{

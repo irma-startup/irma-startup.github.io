@@ -14,14 +14,14 @@ $(document)
     $('#top-nav').visibility({
         once: false,
         onBottomPassed: function() {
-          var minVp = Math.min(window.innerWidth(), window.innerHeight());
+          var minVp = Math.min(window.innerWidth, window.innerHeight);
           if (minVp > 500) {
             $('#fix-nav').transition('fade in');
           }
         },
 
         onBottomPassedReverse: function() {
-          var minVp = Math.min(window.innerWidth(), window.innerHeight());
+          var minVp = Math.min(window.innerWidth, window.innerHeight);
           if (minVp > 500) {
             $('#fix-nav').transition('fade out');
           }
